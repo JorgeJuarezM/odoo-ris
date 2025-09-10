@@ -1,0 +1,9 @@
+services:
+  web:
+    image: odoo:17.0-ris-dev
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+
+    volumes:
+      - ./:/mnt/workspace

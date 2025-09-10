@@ -18,6 +18,7 @@ services:
       - USER=odoo
       - PASSWORD=odoo
     working_dir: /mnt/extra-addons
+    command: sleep infinity
   db:
     image: postgres:15
     environment:
