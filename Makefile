@@ -2,10 +2,12 @@
 
 
 format:
+	find ./addons/ -name "*.py" | xargs python3 -m  autoflake --in-place --remove-all-unused-imports
 	find ./addons/ -name "*.py" | xargs python3 -m black 
 	find ./addons/ -name "*.py" | xargs python3 -m isort --profile black
 	find ./addons/ -name "*.py" | xargs python3 -m flake8
 	find ./addons/ -name "*.py" | xargs python3 -m mypy --check-untyped-defs
+
 
 install:
 # 	docker compose run --rm web odoo -d ris -i eden_ris --stop-after-init

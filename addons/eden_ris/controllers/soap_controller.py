@@ -2,7 +2,7 @@
 import io
 import logging
 
-from odoo import SUPERUSER_ID, http
+from odoo import http
 from odoo.api import Environment
 from odoo.http import request
 from odoo.modules.registry import Registry
