@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="ris_order_form_view" model="ir.ui.view">
+    <field name="name">Ris Orders</field>
+    <field name="model">ris.order</field>
+    <field name="arch" type="xml">
+      <form>
+        <sheet>
+          <div class="oe_title">
+            <h1>
+              <field name="name" readonly="1"/>
+            </h1>
+          </div>
+          <group>
+            <field name="partner_id"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+  <record model="ir.actions.act_window" id="ris_orders_act_window">
+    <field name="name">Orders</field>
+    <field name="res_model">ris.order</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <menuitem name="Orders" id="ris_order_root_menu" parent="eden_ris.menu_root"/>
+  <menuitem name="Orders" id="ris_order_menu" parent="ris_order_root_menu" action="ris_orders_act_window"/>
+</odoo>

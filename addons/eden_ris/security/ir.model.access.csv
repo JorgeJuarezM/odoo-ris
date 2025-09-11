@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 eden_ris.access_api_settings,access_api_settings,eden_ris.model_api_settings,base.group_user,1,1,1,1
+eden_ris.access_ris_order,access_ris_order,eden_ris.model_ris_order,base.group_user,1,1,1,1

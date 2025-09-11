@@ -51,10 +51,8 @@
 -->
     <!-- actions -->
     <!--
-    <menuitem name="List" id="eden_ris.menu_1_list" parent="eden_ris.menu_1"
-              action="eden_ris.action_window"/>
-    <menuitem name="Server to list" id="eden_ris" parent="eden_ris.menu_2"
-              action="eden_ris.action_server"/>
+    <menuitem name="List" id="eden_ris.menu_1_list" parent="eden_ris.menu_1" action="eden_ris.action_window"/>
+    <menuitem name="Server to list" id="eden_ris" parent="eden_ris.menu_2" action="eden_ris.action_server"/>
 -->
     <record id="action_send_order_to_ris" model="ir.actions.server">
       <field name="name">Ejecutar Proceso</field>
@@ -85,11 +83,8 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="eden_ris" id="eden_ris.menu_root"/>
+    <menuitem name="Eden RIS" id="eden_ris.menu_root"/>
     <menuitem name="API Settings" id="eden_ris.settings_menu" parent="eden_ris.menu_root"/>
-    <menuitem name="API Settings" id="eden_ris.api_settings_menu" 
-              parent="eden_ris.settings_menu"
-              action="eden_ris.api_settings_act_window"
-    />
+    <menuitem name="API Settings" id="eden_ris.api_settings_menu" parent="eden_ris.settings_menu" action="eden_ris.api_settings_act_window" />
   </data>
 </odoo>
