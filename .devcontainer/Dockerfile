@@ -15,14 +15,14 @@ RUN curl -o odoo.deb -sSL http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/od
     && rm -rf /var/lib/apt/lists/* odoo.deb
 
 
-RUN mkdir -p /var/lib/odoo
-RUN groupadd odooadm
+# RUN mkdir -p /var/lib/odoo
+# RUN groupadd odooadm
 
-RUN usermod -aG odooadm odoo
-RUN usermod -aG odooadm vscode
-# RUN chgrp -R odooadm /var/lib/odoo
-RUN chown -R odoo:odooadm /var/lib/odoo
-RUN chmod -R 770 /var/lib/odoo
+# RUN usermod -aG odooadm odoo
+# RUN usermod -aG odooadm vscode
+# # RUN chgrp -R odooadm /var/lib/odoo
+# RUN chown -R odoo:odooadm /var/lib/odoo
+# RUN chmod -R 770 /var/lib/odoo
 
 
 

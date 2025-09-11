@@ -24,20 +24,23 @@
 			"configureZshAsDefaultShell": true
 		}
 	},
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-	// Configure tool-specific properties.
-	// "customizations": {},
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "odoo",
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh"
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"remote.autoForwardPorts": false,
+				"remote.autoForwardPortsSource": "process"
 			},
-			"extensions": ["ms-python.debugpy", "Codeium.codeium"]
+			"extensions": [
+				"ms-python.debugpy",
+				"Codeium.codeium"
+			]
 		}
-	}
+	},
+	"containerUser": "odoo",
+	"remoteUser": "odoo",
+	"forwardPorts": [
+		"8069:8069",
+		"8072:8072"
+	]
 }

@@ -7,10 +7,14 @@
             "request": "launch",
             "program": "/usr/bin/odoo", // Path to your odoo-bin
             "args": [
-                "-c", "${workspaceFolder}/config/odoo.conf", // Path to your odoo.conf
-                "--addons-path", "/mnt/extra-addons,/mnt/third_party", // Path to your addons
-                "--limit-time-real", "1000000",
-                "--limit-time-cpu", "1000000"
+                "-c",
+                "${workspaceFolder}/config/odoo.conf", // Path to your odoo.conf
+                "--addons-path",
+                "/mnt/extra-addons,/mnt/third_party", // Path to your addons
+                "--limit-time-real",
+                "1000000",
+                "--limit-time-cpu",
+                "1000000"
             ],
             "console": "integratedTerminal",
             "pathMappings": [
