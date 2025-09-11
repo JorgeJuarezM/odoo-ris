@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <odoo>
   <data>
     <!-- explicit list view definition -->
@@ -56,8 +57,8 @@
 -->
     <record id="action_send_order_to_ris" model="ir.actions.server">
       <field name="name">Ejecutar Proceso</field>
-      <field name="model_id" ref="sale.model_sale_order" />
-      <field name="binding_model_id" ref="sale.model_sale_order" />
+      <field name="model_id" ref="sale.model_sale_order"/>
+      <field name="binding_model_id" ref="sale.model_sale_order"/>
       <field name="binding_view_types">form,list</field>
       <field name="state">code</field>
       <field name="code">
@@ -68,7 +69,7 @@
 
     <record id="res_partner_patient_form" model="ir.ui.view">
       <field name="model">res.partner</field>
-      <field name="inherit_id" ref="base.view_partner_form" />
+      <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
         <xpath expr="//field[@name='category_id']" position="after">
           <field name="birth_date"/>
@@ -85,6 +86,6 @@
 
     <menuitem name="Eden RIS" id="eden_ris.menu_root"/>
     <menuitem name="API Settings" id="eden_ris.settings_menu" parent="eden_ris.menu_root"/>
-    <menuitem name="API Settings" id="eden_ris.api_settings_menu" parent="eden_ris.settings_menu" action="eden_ris.api_settings_act_window" />
+    <menuitem name="API Settings" id="eden_ris.api_settings_menu" parent="eden_ris.settings_menu" action="eden_ris.api_settings_act_window"/>
   </data>
 </odoo>

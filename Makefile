@@ -8,6 +8,7 @@ format:
 	find ./addons/ -name "*.py" | xargs python3 -m isort --profile black
 	find ./addons/ -name "*.py" | xargs python3 -m flake8
 	find ./addons/ -name "*.py" | xargs python3 -m mypy --check-untyped-defs
+	find ./addons/ -type f -iname "*.xml" | xargs -I '{}' xmllint --pretty  --format '{}' --output '{}'
 
 
 install:
