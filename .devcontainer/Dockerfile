@@ -12,6 +12,7 @@ RUN curl -o odoo.deb -sSL http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/od
     && apt-get update \
     && apt-get -y install --no-install-recommends ./odoo.deb \
     && apt-get -y install python3-pip \
+    && apt-get -y install libxml2-utils \ 
     && rm -rf /var/lib/apt/lists/* odoo.deb
 
 
@@ -31,8 +32,8 @@ RUN pip install -r /requirements.txt
 
 # Set permissions and Mount /var/lib/odoo to allow restoring filestore and /mnt/extra-addons for users addons
 RUN chown odoo /etc/odoo/odoo.conf \
-&& mkdir -p /mnt/extra-addons \
-&& chown -R odoo /mnt/extra-addons
+    && mkdir -p /mnt/extra-addons \
+    && chown -R odoo /mnt/extra-addons
 
 VOLUME ["/var/lib/odoo", "/mnt/extra-addons", "/mnt/workspace"]
 

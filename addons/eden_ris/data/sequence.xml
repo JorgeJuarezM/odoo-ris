@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="patient_mrn_squence" model="ir.sequence">
+        <field name="name">Patient MRN Sequence</field>
+        <field name="code">patient.mrn.sequence</field>
+        <field name="prefix"/>
+        <field name="padding">10</field>
+    </record>
+</odoo>

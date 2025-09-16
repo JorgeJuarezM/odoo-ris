@@ -42,5 +42,6 @@
 	"forwardPorts": [
 		"8069:8069",
 		"8072:8072"
-	]
+	],
+	"postCreateCommand": "sudo chown -R odoo ."
 }

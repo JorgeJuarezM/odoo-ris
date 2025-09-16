@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="ris_product_form_view" model="ir.ui.view">
+        <field name="name">Products</field>
+        <field name="model">ris.product</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_tittle">
+                        <label for="name"/>
+                        <h1>
+                            <div class="d_flex">
+                                <field class="text-break" name="name" options="{'line_breaks': False}" widget="text" placeholder="Por ejemplo, hamburguesa de queso" on_change="1" field_id="name_0"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="modality_id" context="{'order_display': 'dicom_modality asc'}"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="eden_ris.ris_product_act" model="ir.actions.act_window">
+        <field name="name">Products</field>
+        <field name="res_model">ris.product</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="eden_ris.ris_product_menu" name="Products" parent="settings_root_menu" action="ris_product_act"/>
+</odoo>

@@ -1,5 +1,6 @@
 ODOO = odoo
-ARGS = -c /etc/odoo/odoo.conf --db_host db --db_user odoo --db_password odoo -d odoo_ris
+ARGS = -c /etc/odoo/odoo.conf --db_host db --db_user odoo \
+	--db_password odoo -d odoo_ris --load-language=es_MX --language=es_MX
 
 
 format:
@@ -23,3 +24,6 @@ up:
 # 	docker compose up -d
 # 	docker compose logs --tail 100 -f web
 	odoo -c /etc/odoo/odoo.conf --db_host db --db_user odoo --db_password odoo -d odoo_ris -u eden_ris
+
+translate:
+	${ODOO} ${ARGS} -d odoo_ris --i18n-export=/mnt/workspace/addons/eden_ris/i18n/es_MX.po --modules=eden_ris --language=es_MX --stop-after-init

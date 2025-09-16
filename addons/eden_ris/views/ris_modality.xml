@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="ris_modality_tree_view" model="ir.ui.view">
+        <field name="name">Modality</field>
+        <field name="model">ris.modality</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="dicom_modality"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="ris_modality_form_view" model="ir.ui.view">
+        <field name="name">Modality</field>
+        <field name="model">ris.modality</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" translate="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="dicom_modality"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="ris_modality_main_act" model="ir.actions.act_window">
+        <field name="name">Modality</field>
+        <field name="res_model">ris.modality</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="ris_modality_main_menu" parent="eden_ris.menu_root" name="Modalidades" action="ris_modality_main_act"/>
+</odoo>

@@ -13,6 +13,11 @@
         "views/views.xml",
         "views/templates.xml",
         "views/order/views.xml",
+        "views/ris_modality.xml",
+        "views/ris_product.xml",
+        "views/ris_patient.xml",
+        "data/modality.xml",
+        "data/sequence.xml",
     ],
     "demo": [
         "demo/demo.xml",

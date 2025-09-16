@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <odoo>
-    <data>
+    <data>   
 <!--
           <record id="object0" model="eden_ris.eden_ris">
             <field name="name">Object 0</field>

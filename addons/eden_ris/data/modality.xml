@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+      <record id="modality_ct_1" model="ris.modality">
+        <field name="name">Computarized Tomography</field>
+        <field name="dicom_modality">CT</field>
+      </record>
+      <record id="modality_us_1" model="ris.modality">
+        <field name="name">Ultrasound</field>
+        <field name="dicom_modality">US</field>
+      </record>
+      <record id="modality_dx_1" model="ris.modality">
+        <field name="name">Digital X-Ray</field>
+        <field name="dicom_modality">DX</field>
+      </record>
+      <record id="modality_cr_1" model="ris.modality">
+        <field name="name">Computed Radiography</field>
+        <field name="dicom_modality">CR</field>
+      </record>
+      <record id="modality_mg_1" model="ris.modality">
+        <field name="name">Mammography</field>
+        <field name="dicom_modality">MG</field>
+      </record>
+      <record id="modality_xa_1" model="ris.modality">
+        <field name="name">X-Ray Angiography</field>
+        <field name="dicom_modality">XA</field>
+      </record>
+    </data>
+</odoo>

@@ -1,0 +1,841 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eden_ris
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250819\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-16 18:49+0000\n"
+"PO-Revision-Date: 2025-09-16 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eden_ris
+#: model:ir.actions.act_window,name:eden_ris.api_settings_act_window
+#: model:ir.ui.menu,name:eden_ris.api_settings_menu
+#: model:ir.ui.menu,name:eden_ris.settings_menu
+msgid "API Settings"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__access_warning
+msgid "Access warning"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__active
+msgid "Active"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_invoiced
+msgid "Already invoiced"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_undiscounted
+msgid "Amount Before Discount"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_paid
+msgid "Amount Paid"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_to_invoice
+msgid "Amount to invoice"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__analytic_account_id
+msgid "Analytic Account"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model,name:eden_ris.model_api_settings
+msgid "Api Settings"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__authorized_transaction_ids
+msgid "Authorized Transactions"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_res_partner__birth_date
+#: model:ir.model.fields,field_description:eden_ris.field_res_users__birth_date
+msgid "Birth Date"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__cr
+msgid "CR"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__ct
+msgid "CT"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__campaign_id
+msgid "Campaign"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__company_id
+msgid "Company"
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_ct_1
+msgid "Computarized Tomography"
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_cr_1
+msgid "Computed Radiography"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model,name:eden_ris.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__country_code
+msgid "Country code"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__create_uid
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__create_uid
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__create_date
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__create_date
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__date_order
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__currency_rate
+msgid "Currency Rate"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__partner_id
+msgid "Customer"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__client_order_ref
+msgid "Customer Reference"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__dicom_modality
+msgid "DICOM Modality"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__dx
+msgid "DX"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__partner_shipping_id
+msgid "Delivery Address"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__commitment_date
+msgid "Delivery Date"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__expected_date
+msgid ""
+"Delivery date you can promise to the customer, computed from the minimum "
+"lead time of the order lines."
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_dx_1
+msgid "Digital X-Ray"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__display_name
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__display_name
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.ui.menu,name:eden_ris.menu_root
+msgid "Eden RIS"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.actions.server,name:eden_ris.action_send_order_to_ris
+msgid "Ejecutar Proceso"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__expected_date
+msgid "Expected Date"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__validity_date
+msgid "Expiration"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__res_partner__gender__f
+msgid "Female"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__fiscal_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular "
+"customers or sales orders/invoices.The default value comes from the "
+"customer."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_res_partner__gender
+#: model:ir.model.fields,field_description:eden_ris.field_res_users__gender
+msgid "Gender"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__has_active_pricelist
+msgid "Has Active Pricelist"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__show_update_fpos
+msgid "Has Fiscal Position Changed"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__show_update_pricelist
+msgid "Has Pricelist Changed"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__id
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__id
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__id
+msgid "ID"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__message_has_error
+#: model:ir.model.fields,help:eden_ris.field_ris_order__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__journal_id
+msgid ""
+"If set, the SO will invoice in this journal; otherwise the sales journal "
+"with the lowest sequence is used."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__pricelist_id
+msgid "If you change the pricelist, only newly added lines will be affected."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__partner_invoice_id
+msgid "Invoice Address"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__invoice_count
+msgid "Invoice Count"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__invoice_status
+msgid "Invoice Status"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__journal_id
+msgid "Invoicing Journal"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__is_expired
+msgid "Is Expired"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__write_uid
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__write_uid
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__write_date
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__write_date
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__locked
+msgid "Locked"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__locked
+msgid "Locked orders cannot be modified."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__mg
+msgid "MG"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__mr
+msgid "MR"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__res_partner__gender__m
+msgid "Male"
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_mg_1
+msgid "Mammography"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__medium_id
+msgid "Medium"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.ui.menu,name:eden_ris.ris_modality_main_menu
+msgid "Modalidades"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.actions.act_window,name:eden_ris.ris_modality_main_act
+msgid "Modality"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__name
+#: model:ir.model.fields,field_description:eden_ris.field_ris_modality__name
+msgid "Name"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__require_payment
+msgid "Online payment"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__require_signature
+msgid "Online signature"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__sale_order_option_ids
+msgid "Optional Products Lines"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__date_order
+msgid "Order Date"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__order_line
+msgid "Order Lines"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__name
+msgid "Order Reference"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.actions.act_window,name:eden_ris.ris_orders_act_window
+#: model:ir.ui.menu,name:eden_ris.ris_order_menu
+#: model:ir.ui.menu,name:eden_ris.ris_order_root_menu
+msgid "Orders"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__res_partner__gender__o
+msgid "Other"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__partner_credit_warning
+msgid "Partner Credit Warning"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_res_partner__is_patient
+#: model:ir.model.fields,field_description:eden_ris.field_res_users__is_patient
+#: model_terms:ir.ui.view,arch_db:eden_ris.ris_order_tree_view
+msgid "Patient"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__reference
+msgid "Payment Ref."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__payment_term_id
+msgid "Payment Terms"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__pending_email_template_id
+msgid "Pending Email Template"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__prepayment_percent
+msgid "Prepayment percentage"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__pricelist_id
+msgid "Pricelist"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__sale_order_template_id
+msgid "Quotation Template"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__origin
+msgid "Reference of the document that generated this sales order request"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__require_payment
+msgid "Request a online payment from the customer to confirm the order."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__require_signature
+msgid "Request a online signature from the customer to confirm the order."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model,name:eden_ris.model_ris_modality
+msgid "Ris Modality"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__sale_id
+msgid "Sale Order"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model,name:eden_ris.model_sale_order
+msgid "Sales Order"
+msgstr "Orden de venta"
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__signature
+msgid "Signature"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__signed_by
+msgid "Signed By"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__signed_on
+msgid "Signed On"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__source_id
+msgid "Source"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__origin
+msgid "Source Document"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__state
+msgid "Status"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__tag_ids
+msgid "Tags"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__tax_calculation_rounding_method
+msgid "Tax Calculation Rounding Method"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__tax_country_id
+msgid "Tax Country"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__tax_totals
+msgid "Tax Totals"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_tax
+msgid "Taxes"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__terms_type
+msgid "Terms & Conditions format"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__note
+msgid "Terms and conditions"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__reference
+msgid "The payment communication of this sale order."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__prepayment_percent
+msgid ""
+"The percentage of the amount needed that must be paid by the customer to "
+"confirm the order."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__pending_email_template_id
+msgid "The template of the pending email that must be sent asynchronously."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts,"
+" e.g. Fall_Drive, Christmas_Special"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__commitment_date
+msgid ""
+"This is the delivery date promised to the customer. If set, the delivery "
+"order will be scheduled based on this date rather than product lead times."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__token
+msgid "Token"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_total
+msgid "Total"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__transaction_ids
+msgid "Transactions"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__type_name
+msgid "Type Name"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: eden_ris
+#: model_terms:ir.ui.view,arch_db:eden_ris.ris_order_form_view
+msgid "Type to find a patient..."
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__us
+msgid "US"
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_us_1
+msgid "Ultrasound"
+msgstr "Ultrasonido"
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__amount_untaxed
+msgid "Untaxed Amount"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_api_settings__url
+msgid "Url"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,field_description:eden_ris.field_ris_order__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model.fields,help:eden_ris.field_ris_order__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: eden_ris
+#: model:ris.modality,name:eden_ris.modality_xa_1
+msgid "X-Ray Angiography"
+msgstr "Agiografía de Rayos-X"
+
+#. module: eden_ris
+#: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__xa
+msgid "XA"
+msgstr ""
+
+#. module: eden_ris
+#: model:ir.model,name:eden_ris.model_ris_order
+msgid "ris.order"
+msgstr ""

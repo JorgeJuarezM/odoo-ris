@@ -55,14 +55,4 @@ class SaleOrder(models.Model):
 class ResPartner(models.Model):
     _inherit = "res.partner"
 
-    gender = fields.Selection(
-        selection=[
-            ("O", "Other"),
-            ("M", "Male"),
-            ("F", "Female"),
-        ],
-        string="Gender",
-    )
-
-    birth_date = fields.Date(string="Birth Date")
     is_patient = fields.Boolean(string="Patient", default=False)

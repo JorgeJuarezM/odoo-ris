@@ -67,7 +67,7 @@
     </record>
 
 
-    <record id="res_partner_patient_form" model="ir.ui.view">
+    <!-- <record id="res_partner_patient_form" model="ir.ui.view">
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
@@ -76,7 +76,9 @@
           <field name="gender"/>
         </xpath>
       </field>
-    </record>
+    </record> -->
+
+    
 
     <record model="ir.actions.act_window" id="eden_ris.api_settings_act_window">
       <field name="name">API Settings</field>
@@ -85,6 +87,7 @@
     </record>
 
     <menuitem name="Eden RIS" id="eden_ris.menu_root"/>
+    <menuitem name="Settings" id="eden_ris.settings_root_menu" parent="menu_root"/>
     <menuitem name="API Settings" id="eden_ris.settings_menu" parent="eden_ris.menu_root"/>
     <menuitem name="API Settings" id="eden_ris.api_settings_menu" parent="eden_ris.settings_menu" action="eden_ris.api_settings_act_window"/>
   </data>
