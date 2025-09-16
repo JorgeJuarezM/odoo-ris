@@ -27,8 +27,8 @@ RUN curl -o odoo.deb -sSL http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/od
 
 
 
-COPY ./requirements.txt /requirements.txt
-RUN pip install -r /requirements.txt
+# COPY ./requirements.txt /requirements.txt
+# RUN pip install -r /requirements.txt
 
 # Set permissions and Mount /var/lib/odoo to allow restoring filestore and /mnt/extra-addons for users addons
 RUN chown odoo /etc/odoo/odoo.conf \
