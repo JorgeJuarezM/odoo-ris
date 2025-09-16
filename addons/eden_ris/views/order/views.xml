@@ -12,10 +12,23 @@
             </h1>
           </div>
           <group>
-            <field name="partner_id"/>
+            <group>
+              <field name="partner_id" context="{'show_address': 1, 'show_vat': True, 'default_is_patient': True}" placeholder="Type to find a patient..." domain="[('is_patient', '=', True)]"/>
+              <!-- <field name="birth_date"/> -->
+            </group>
           </group>
         </sheet>
       </form>
+    </field>
+  </record>
+  <record id="ris_order_tree_view" model="ir.ui.view">
+    <field name="name">Ris Orders</field>
+    <field name="model">ris.order</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name"/>
+        <field name="partner_id" string="Patient"/>
+      </tree>
     </field>
   </record>
   <record model="ir.actions.act_window" id="ris_orders_act_window">

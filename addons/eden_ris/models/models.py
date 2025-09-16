@@ -65,3 +65,4 @@ class ResPartner(models.Model):
     )
 
     birth_date = fields.Date(string="Birth Date")
+    is_patient = fields.Boolean(string="Patient", default=False)
