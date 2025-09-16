@@ -38,9 +38,5 @@
 		}
 	},
 	"containerUser": "odoo",
-	"remoteUser": "odoo",
-	"forwardPorts": [
-		"8069:8069",
-		"8072:8072"
-	]
+	"remoteUser": "odoo"
 }
