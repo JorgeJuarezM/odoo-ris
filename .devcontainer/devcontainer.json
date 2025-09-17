@@ -28,7 +28,23 @@
 		"vscode": {
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "zsh",
-				"remote.autoForwardPortsSource": "process"
+				"remote.autoForwardPortsSource": "process",
+				"remote.portsAttributes": {
+					"8069": {
+						"label": "Odoo Server",
+						"onAutoForward": "silent"
+					},
+					"8072": {
+						"label": "Odoo Server",
+						"onAutoForward": "silent"
+					},
+					"0-8068": {
+						"onAutoForward": "ignore"
+					},
+					"8073-65535": {
+						"onAutoForward": "ignore"
+					}
+				}
 			},
 			"extensions": [
 				"ms-python.debugpy",
@@ -40,18 +56,5 @@
 	"forwardPorts": [
 		8069,
 		8072
-	],
-	"portsAttributes": {
-		"*": {
-			"onAutoForward": "ignore"
-		},
-		"8069": {
-			"label": "Application (Odoo)",
-			"onAutoForward": "silent"
-		},
-		"8072": {
-			"label": "Application (Odoo Alt)",
-			"onAutoForward": "silent"
-		}
-	}
+	]
 }
