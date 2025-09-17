@@ -39,5 +39,10 @@
 	"forwardPorts": [
 		8069,
 		8072
-	]
+	],
+	"portsAttributes": {
+		"*": {
+			"onAutoForward": "ignore"
+		}
+	}
 }
