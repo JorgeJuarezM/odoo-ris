@@ -16,6 +16,9 @@ services:
       - USER=odoo
       - PASSWORD=odoo
     working_dir: /mnt/extra-addons
+    ports:
+      - 8069:8069
+      - 8072:8072
     command: sleep infinity
   db:
     image: postgres:15
