@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="dicom_modality" string="DICOM"/>
-                <field name="name" string="Modality"/>
+                <field name="name" string="Name"/>
             </tree>
         </field>
     </record>
