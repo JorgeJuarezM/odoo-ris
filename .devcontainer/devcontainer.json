@@ -36,7 +36,5 @@
 				"Codeium.codeium"
 			]
 		}
-	},
-	"containerUser": "odoo",
-	"remoteUser": "odoo"
+	}
 }
