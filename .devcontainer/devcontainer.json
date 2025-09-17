@@ -37,5 +37,9 @@
 			]
 		}
 	},
-	"postCreateCommand": "sudo chown -R 1000:1000 /var/lib/odoo"
+	"postCreateCommand": "sudo chown -R 1000:1000 /var/lib/odoo",
+	"forwardPorts": [
+		8069,
+		8072
+	]
 }
