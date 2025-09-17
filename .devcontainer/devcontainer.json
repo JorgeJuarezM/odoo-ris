@@ -27,9 +27,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"remote.autoForwardPorts": false,
-				"remote.autoForwardPortsSource": "process"
+				"terminal.integrated.defaultProfile.linux": "zsh"
 			},
 			"extensions": [
 				"ms-python.debugpy",

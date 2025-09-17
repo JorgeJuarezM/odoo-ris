@@ -1,6 +1,4 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": [],
-    "remote.autoForwardPorts": false,
-    "remote.autoForwardPortsSource": "process"
+    "python-envs.pythonProjects": []
 }
