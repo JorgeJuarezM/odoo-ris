@@ -5,8 +5,8 @@
         <field name="model">ris.modality</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="dicom_modality"/>
-                <field name="name"/>
+                <field name="dicom_modality" string="DICOM"/>
+                <field name="name" string="Modality"/>
             </tree>
         </field>
     </record>
