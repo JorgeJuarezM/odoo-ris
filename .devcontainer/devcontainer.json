@@ -27,7 +27,8 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh"
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"remote.autoForwardPortsSource": "process"
 			},
 			"extensions": [
 				"ms-python.debugpy",
@@ -43,6 +44,14 @@
 	"portsAttributes": {
 		"*": {
 			"onAutoForward": "ignore"
+		},
+		"8069": {
+			"label": "Application (Odoo)",
+			"onAutoForward": "silent"
+		},
+		"8072": {
+			"label": "Application (Odoo Alt)",
+			"onAutoForward": "silent"
 		}
 	}
 }
