@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0-20250819\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 02:36+0000\n"
-"PO-Revision-Date: 2025-09-17 02:36+0000\n"
+"POT-Creation-Date: 2025-09-17 02:39+0000\n"
+"PO-Revision-Date: 2025-09-17 02:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -218,12 +218,12 @@ msgstr ""
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__cr
 msgid "CR"
-msgstr "CR"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__ct
 msgid "CT"
-msgstr "CT"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields,field_description:eden_ris.field_ris_order__campaign_id
@@ -433,7 +433,7 @@ msgstr ""
 #. module: eden_ris
 #: model_terms:ir.ui.view,arch_db:eden_ris.ris_modality_tree_view
 msgid "DICOM"
-msgstr "DICOM"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields,field_description:eden_ris.field_ris_modality__dicom_modality
@@ -443,7 +443,7 @@ msgstr "Modalidad DICOM"
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__dx
 msgid "DX"
-msgstr "DX"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields,field_description:eden_ris.field_ris_patient__date
@@ -899,12 +899,12 @@ msgstr ""
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__mg
 msgid "MG"
-msgstr "MG"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__mr
 msgid "MR"
-msgstr "MR"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_patient__gender__m
@@ -956,7 +956,7 @@ msgstr ""
 #. module: eden_ris
 #: model:ir.ui.menu,name:eden_ris.ris_modality_main_menu
 msgid "Modalidades"
-msgstr "Modalidades"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.actions.act_window,name:eden_ris.ris_modality_main_act
@@ -1661,7 +1661,7 @@ msgstr ""
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__us
 msgid "US"
-msgstr "US"
+msgstr ""
 
 #. module: eden_ris
 #: model:ris.modality,name:eden_ris.modality_us_1
@@ -1733,7 +1733,7 @@ msgstr "Agiografía de Rayos-X"
 #. module: eden_ris
 #: model:ir.model.fields.selection,name:eden_ris.selection__ris_modality__dicom_modality__xa
 msgid "XA"
-msgstr "XA"
+msgstr ""
 
 #. module: eden_ris
 #: model:ir.model.fields,field_description:eden_ris.field_ris_patient__zip
