@@ -14,12 +14,26 @@
                             </div>
                         </h1>
                     </div>
-                    <group>
-                        <group>
-                            <field name="code"/>
-                            <field name="modality_id" context="{'order_display': 'dicom_modality asc'}"/>
-                        </group>
-                    </group>
+                    <notebook>
+                        <page string="General Information">
+                            <group>
+                                <group>
+                                    <field name="default_code"/>
+                                    <field name="modality_id" context="{'order_display': 'dicom_modality asc'}"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Description">
+                            <field name="description" widget="text" placeholder="Product Description"/>
+                        </page>
+                        <page string="Invoicing">
+                            <group>
+                                <group>
+                                    <field name="list_price"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
                 </sheet>
             </form>
         </field>

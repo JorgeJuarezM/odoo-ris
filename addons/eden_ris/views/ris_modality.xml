@@ -39,5 +39,5 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="ris_modality_main_menu" parent="eden_ris.menu_root" name="Modalidades" action="ris_modality_main_act"/>
+    <menuitem id="ris_modality_main_menu" parent="eden_ris.settings_root_menu" name="Modalities" action="ris_modality_main_act"/>
 </odoo>

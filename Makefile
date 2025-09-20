@@ -18,7 +18,6 @@ install:
 
 update:
 	${ODOO} ${ARGS} -u eden_ris --stop-after-init
-	${MAKE} up
 
 up:
 # 	docker compose up -d

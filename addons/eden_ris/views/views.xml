@@ -86,9 +86,8 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Eden RIS" id="eden_ris.menu_root"/>
-    <menuitem name="Settings" id="eden_ris.settings_root_menu" parent="menu_root"/>
-    <menuitem name="API Settings" id="eden_ris.settings_menu" parent="eden_ris.menu_root"/>
-    <menuitem name="API Settings" id="eden_ris.api_settings_menu" parent="eden_ris.settings_menu" action="eden_ris.api_settings_act_window"/>
+    <menuitem name="Eden RIS" id="menu_root"/>
+    <menuitem name="Settings" id="settings_root_menu" parent="menu_root" sequence="999"/>
+    <menuitem name="API Settings" id="api_settings_menu" parent="settings_root_menu" action="api_settings_act_window"/>
   </data>
 </odoo>
