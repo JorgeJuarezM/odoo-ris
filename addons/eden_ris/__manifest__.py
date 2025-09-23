@@ -7,7 +7,7 @@
     "website": "https://www.jorgejuarez.net",
     "category": "Healthcare",
     "version": "0.1",
-    "depends": ["base", "sale", "sale_management", "partner_firstname"],
+    "depends": ["base", "sale", "sale_management", "partner_firstname", "queue_job"],
     "data": [
         "security/ir.model.access.csv",
         "views/views.xml",

@@ -31,7 +31,8 @@ RUN curl -o odoo.deb -sSL http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/od
 # RUN pip install -r /requirements.txt
 
 RUN pip3 install --upgrade pip \
-    && pip3 install spyne black isort flake8 mypy autoflake
+    && pip3 install spyne black isort flake8 mypy autoflake \
+    && pip3 install odoo-addon-queue_job==17.0.1.0.0.2
 
 # Set permissions and Mount /var/lib/odoo to allow restoring filestore and /mnt/extra-addons for users addons
 RUN chown odoo /etc/odoo/odoo.conf \

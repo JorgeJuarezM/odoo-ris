@@ -23,7 +23,7 @@ update:
 up:
 # 	docker compose up -d
 # 	docker compose logs --tail 100 -f web
-	odoo -c /etc/odoo/odoo.conf --db_host db --db_user odoo --db_password odoo -d odoo_ris -u eden_ris
+	odoo -c /etc/odoo/odoo.conf --load=web,queue_job --workers=1 --db_host db --db_user odoo --db_password odoo -d odoo_ris -u eden_ris
 
 translate:
 	${ODOO} ${ARGS} -d odoo_ris --i18n-export=/mnt/workspace/addons/eden_ris/i18n/es_MX.po --modules=eden_ris --language=es_MX --stop-after-init
