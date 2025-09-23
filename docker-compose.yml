@@ -15,6 +15,8 @@ services:
       - HOST=db
       - USER=odoo
       - PASSWORD=odoo
+      - ODOO_LOAD_MODULES=web,queue_job
+      - ODOO_WORKERS=2
   web-dev:
     <<: *worker-base
     ports:
@@ -22,6 +24,9 @@ services:
       - 8072:8072
     working_dir: /mnt/extra-addons
     command: sleep infinity
+    environment:
+      - ODOO_LOAD_MODULES=web
+      - ODOO_WORKERS=0
 
   db:
     image: postgres:15
