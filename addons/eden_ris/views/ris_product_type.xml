@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="ris_product_type_tree_view" model="ir.ui.view">
+        <field name="name">Product Types</field>
+        <field name="model">ris.product.type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="create_date"/>
+                <field name="create_uid"/>
+                <field name="write_date"/>
+                <field name="write_uid"/>
+            </tree>
+        </field>
+    </record>
+    <record id="ris_product_type_form_view" model="ir.ui.view">
+        <field name="name">Product Types</field>
+        <field name="model">ris.product.type</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_tittle">
+                        <label for="name"/>
+                        <h1>
+                            <div class="d_flex">
+                                <field class="text-break" name="name" options="{'line_breaks': False}" widget="text" placeholder="Example, Image - Ultrasound"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <notebook>
+                        <page string="General Information">
+                            <group>
+                                <group>
+                                    <field name="code"/>
+                                    <field name="modality_id" context="{'order_display': 'dicom_modality asc'}"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="eden_ris.ris_product_type_act" model="ir.actions.act_window">
+        <field name="name">Product Types</field>
+        <field name="res_model">ris.product.type</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="eden_ris.ris_product_type_menu" name="Product Types" parent="settings_root_menu" action="ris_product_type_act"/>
+</odoo>

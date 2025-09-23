@@ -34,6 +34,19 @@
             </form>
         </field>
     </record>
+    <record id="ris_patient_tree_view" model="ir.ui.view">
+        <field name="name">Patients</field>
+        <field name="model">ris.patient</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="ref"/>
+                <field name="name"/>
+                <field name="gender"/>
+                <field name="birth_date"/>
+                <field name="create_date"/>
+            </tree>
+        </field>
+    </record>
     <record id="ris_patient_act" model="ir.actions.act_window">
         <field name="name">Patients</field>
         <field name="res_model">ris.patient</field>

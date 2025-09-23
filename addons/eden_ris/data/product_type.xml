@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="ris_prpduct_type_1" model="ris.product.type">
+        <field name="name">Imagen Ultrasonido</field>
+        <field name="code">IMA-US</field>
+        <field name="active" eval="1"/>
+    </record>
+</odoo>

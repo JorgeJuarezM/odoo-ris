@@ -4,3 +4,4 @@ eden_ris.access_ris_order,access_ris_order,eden_ris.model_ris_order,base.group_u
 eden_ris.access_ris_modality,access_ris_modality,eden_ris.model_ris_modality,base.group_user,1,1,1,1
 eden_ris.access_ris_product,access_ris_product,eden_ris.model_ris_product,base.group_user,1,1,1,1
 eden_ris.access_ris_patient,access_ris_patient,eden_ris.model_ris_patient,base.group_user,1,1,1,1
+eden_ris.access_ris_product_type,access_ris_product_type,eden_ris.model_ris_product_type,base.group_user,1,1,1,1

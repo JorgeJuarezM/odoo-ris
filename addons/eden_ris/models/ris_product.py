@@ -8,7 +8,7 @@ class RisProduct(models.Model):
     _description = "Ris Product"
 
     product_id = fields.Many2one("product.product", "Product", required=True)
-    modality_id = fields.Many2one("ris.modality", "Modality", required=True)
 
     description = fields.Text("Description")
+    product_type_id = fields.Many2one("ris.product.type", "Product Type", required=True)
     active = fields.Boolean("Active", default=True)

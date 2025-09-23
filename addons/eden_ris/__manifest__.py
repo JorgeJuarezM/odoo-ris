@@ -15,8 +15,10 @@
         "views/order/views.xml",
         "views/ris_modality.xml",
         "views/ris_product.xml",
+        "views/ris_product_type.xml",
         "views/ris_patient.xml",
         "data/modality.xml",
+        "data/product_type.xml",
         "data/sequence.xml",
     ],
     "demo": [

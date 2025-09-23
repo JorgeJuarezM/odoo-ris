@@ -1,6 +1,7 @@
 ODOO = odoo
 ARGS = -c /etc/odoo/odoo.conf --db_host db --db_user odoo \
-	--db_password odoo -d odoo_ris --load-language=es_MX --language=es_MX
+	--db_password odoo -d odoo_ris
+INSTALL_ARGS = --load-language=es_MX --language=es_MX
 
 
 format:
@@ -14,7 +15,7 @@ format:
 
 install:
 # 	docker compose run --rm web odoo -d ris -i eden_ris --stop-after-init
-	${ODOO} ${ARGS} -d odoo_ris -i eden_ris --stop-after-init
+	${ODOO} ${ARGS} ${INSTALL_ARGS} -d odoo_ris -i eden_ris --stop-after-init
 
 update:
 	${ODOO} ${ARGS} -u eden_ris --stop-after-init
