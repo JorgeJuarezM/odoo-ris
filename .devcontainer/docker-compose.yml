@@ -1,5 +1,5 @@
 services:
-  web:
+  web-dev:
     image: odoo:17.0-ris-dev
     build:
       context: .
